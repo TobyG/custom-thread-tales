@@ -13,7 +13,7 @@ const services = [
     icon: Shirt,
     title: "Golf Shirts",
     description: "Professional golf shirts with custom embroidery",
-    image: "https://images.unsplash.com/photo-1617953141905-b27fb1f17d71", // Golf polo shirt image
+    image: "https://images.unsplash.com/photo-1586363104862-3a5e2ab60d99", // New golf polo shirt image
   },
   {
     icon: Shirt,

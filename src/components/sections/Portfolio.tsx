@@ -9,7 +9,7 @@ const portfolioItems = [
   },
   {
     title: "Corporate Golf Shirts",
-    image: "https://images.unsplash.com/photo-1620228885847-9eab2a1adddc", // Golf shirt collection
+    image: "https://images.unsplash.com/photo-1615416787928-52db9d5aa2f6", // New golf shirt collection
     category: "Golf Shirts",
   },
   {
