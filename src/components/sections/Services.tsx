@@ -1,10 +1,10 @@
 
 import { motion } from "framer-motion";
-import { Shirt, Cap, Pencil } from "lucide-react";
+import { Hat, Shirt, Pencil } from "lucide-react";
 
 const services = [
   {
-    icon: Cap,
+    icon: Hat,
     title: "Custom Cap Embroidery",
     description: "Premium embroidered caps with your unique designs",
   },
