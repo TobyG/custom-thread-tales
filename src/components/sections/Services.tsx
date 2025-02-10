@@ -1,10 +1,10 @@
 
 import { motion } from "framer-motion";
-import { ShirtRound, Shirt, Pencil } from "lucide-react";
+import { Shirt } from "lucide-react";
 
 const services = [
   {
-    icon: ShirtRound,
+    icon: Shirt,
     title: "Custom Cap Embroidery",
     description: "Premium embroidered caps with your unique designs",
   },
