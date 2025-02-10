@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 const portfolioItems = [
   {
     title: "Custom Cap Collection",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
     category: "Caps",
   },
   {
     title: "Corporate Golf Shirts",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
     category: "Golf Shirts",
   },
   {
     title: "Event T-Shirts",
-    image: "/placeholder.svg",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
     category: "T-Shirts",
   },
 ];

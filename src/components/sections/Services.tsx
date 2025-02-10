@@ -7,16 +7,19 @@ const services = [
     icon: Shirt,
     title: "Custom Cap Embroidery",
     description: "Premium embroidered caps with your unique designs",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
   },
   {
     icon: Shirt,
     title: "Golf Shirts",
     description: "Professional golf shirts with custom embroidery",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
   },
   {
     icon: Shirt,
     title: "T-Shirts",
     description: "High-quality branded t-shirts for any occasion",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
   },
 ];
 
@@ -48,11 +51,20 @@ export const Services = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: index * 0.2 }}
               viewport={{ once: true }}
-              className="bg-white p-8 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              className="bg-white rounded-lg shadow-lg hover:shadow-xl transition-shadow overflow-hidden"
             >
-              <service.icon className="w-12 h-12 text-accent mb-4 mx-auto" />
-              <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
-              <p className="text-gray-600">{service.description}</p>
+              <div className="h-48 overflow-hidden">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                />
+              </div>
+              <div className="p-8">
+                <service.icon className="w-12 h-12 text-accent mb-4 mx-auto" />
+                <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
+                <p className="text-gray-600">{service.description}</p>
+              </div>
             </motion.div>
           ))}
         </div>
