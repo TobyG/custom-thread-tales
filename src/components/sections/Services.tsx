@@ -7,19 +7,19 @@ const services = [
     icon: Shirt,
     title: "Custom Cap Embroidery",
     description: "Premium embroidered caps with your unique designs",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1534215754734-18e55d13e346", // Baseball cap image
   },
   {
     icon: Shirt,
     title: "Golf Shirts",
     description: "Professional golf shirts with custom embroidery",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1617953141905-b27fb1f17d71", // Golf polo shirt image
   },
   {
     icon: Shirt,
     title: "T-Shirts",
     description: "High-quality branded t-shirts for any occasion",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab", // T-shirt image
   },
 ];
 

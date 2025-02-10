@@ -4,17 +4,17 @@ import { motion } from "framer-motion";
 const portfolioItems = [
   {
     title: "Custom Cap Collection",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b", // Baseball cap collection
     category: "Caps",
   },
   {
     title: "Corporate Golf Shirts",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1620228885847-9eab2a1adddc", // Golf shirt collection
     category: "Golf Shirts",
   },
   {
     title: "Event T-Shirts",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158",
+    image: "https://images.unsplash.com/photo-1562157873-818bc0726f68", // T-shirt collection
     category: "T-Shirts",
   },
 ];
